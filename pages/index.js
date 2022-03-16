@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import DivDesk from "../../images/pattern-divider-desktop.svg";
-import DivMobile from "../../images/pattern-divider-mobile.svg";
-import IconDice from "../../images/icon-dice.svg";
+import DivDesk from "../images/pattern-divider-desktop.svg";
+import DivMobile from "../images/pattern-divider-mobile.svg";
+import IconDice from "../images/icon-dice.svg";
 import { useEffect, useState } from "react";
 export default function Home() {
   const [advice, setAdvice] = useState("second");
