@@ -35,7 +35,7 @@ export default function Home() {
             advice # {advice.id}
           </p>
           <h1 className=" text-LightCyan text-lg font-bold px-8">
-            "{advice.advice}"
+            &quot;{advice.advice}&quot;
           </h1>
         </div>
 
